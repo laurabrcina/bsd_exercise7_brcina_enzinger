@@ -20,6 +20,16 @@
             <timezone>Europe/Vienna</timezone>
         </developer>
 
+        <developer>
+            <id>KatharinaEnzinger</id>
+            <name>Katharina Enzinger</name>
+            <email>s51286@edu.campus02.at</email>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+
     </developers>
 
     <properties>
