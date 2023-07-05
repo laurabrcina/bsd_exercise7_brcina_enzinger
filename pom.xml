@@ -5,12 +5,51 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>bsd_exercise7_brcina_enzinger</artifactId>
+    <artifactId>Exercise7</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <url>https://github.com/laurabrcina/bsd_exercise7_brcina_enzinger.git</url>
+    <developers>
+        <developer>
+            <id>laurabrcina</id>
+            <name>Laura Brcina</name>
+            <email>s50685@edu.campus02.at</email>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+        </developer>
+
+    </developers>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.9.2</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>3.9.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>3.9.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>3.9.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
