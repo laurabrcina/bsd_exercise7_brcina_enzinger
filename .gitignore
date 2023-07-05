@@ -1,0 +1,8 @@
+*.html
+*.pdf
+*.log
+logs
+target
+.idea
+DS_Store
+log4j2.xml
