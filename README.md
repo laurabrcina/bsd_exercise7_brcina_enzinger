@@ -1,12 +1,18 @@
 # Projektname: bsd_exercise7_brcina_enzinger
 Gruppenmitglieder: 
-+ Laura Brcina
-+ Katharina Enzinger
++ Laura Brcina (LB)
++ Katharina Enzinger (KE)
 ___
 ## ToDo Liste:
-- [ ] LB - Repository erstellen
-- [ ] LB - Maven Projekt erstellen 
-- [ ] LB - Branch "readme" erstellen
+### Implementierung
+- [ ] LB - Einen neuen Repository auf GitHub erstellen
+- [ ] LB - Den Gruppenmitglied als Mitarbeiter einladen
+### Maven Project
+- [ ] LB - Maven Projekt erstellen und Dateien von Moodle integrieren
+- [ ] LB - Package mit dem Namen at.campus02.bsd erstellen
+- [ ] KE - .gitignore Datei erstellt
+### README File
+- [ ] LB - Branch "readme" erstellt
 - [ ] KE - Branch maven_detail erstellen
 - [ ] KE - pom.xml erweitern
 - [ ] Branch bug_hunt
