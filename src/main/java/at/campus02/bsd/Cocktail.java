@@ -6,7 +6,6 @@ import java.util.List;
  * Represents a cocktail, which is a type of drink composed of multiple ingredients.
  */
 public class Cocktail extends Drink {
-    private String name;
     private List<Liquid> ingredients;
 
     /**

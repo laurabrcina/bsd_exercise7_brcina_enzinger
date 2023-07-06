@@ -8,6 +8,37 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CocktailTest {
 
     @Test
+    public void getNameTest(){
+        List<Liquid> ingredients = Arrays.asList(
+                new Liquid("Ingredient1", 0.25, 20),
+                new Liquid("Ingredient2", 0.5, 5),
+                new Liquid("Ingredient3", 0.75,10)
+        );
+        Cocktail cocktail = new Cocktail("Cocktail1",ingredients);
+        assertEquals("Cocktail1",cocktail.getName());
+    }
+    @Test
+    public void setNameTest(){
+        List<Liquid> ingredients = Arrays.asList(
+                new Liquid("Ingredient1", 0.25, 20),
+                new Liquid("Ingredient2", 0.5, 5),
+                new Liquid("Ingredient3", 0.75,10)
+        );
+        Cocktail cocktail = new Cocktail("Cocktail1",ingredients);
+        cocktail.setName("Cocktail Mango");
+        assertEquals("Cocktail Mango",cocktail.getName());
+    }
+
+    @Test
+    public void printCocktailInformationTest(){
+        List<Liquid> ingredients = Arrays.asList(
+                new Liquid("Ingredient1", 0.25, 20),
+                new Liquid("Ingredient2", 0.5, 5)
+        );
+        Cocktail cocktail = new Cocktail("Cocktail1",ingredients);
+        cocktail.printCocktailInformation();
+    }
+    @Test
     public void testGetVolume() {
         List<Liquid> ingredients = Arrays.asList(
                 new Liquid("Ingredient1", 0.25, 20),
