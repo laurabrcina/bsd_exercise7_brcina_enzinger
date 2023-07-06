@@ -6,7 +6,6 @@ import java.util.List;
  * Represents a cocktail, which is a type of drink composed of multiple ingredients.
  */
 public class Cocktail extends Drink {
-    private String name;
     private List<Liquid> ingredients;
 
     /**
@@ -62,20 +61,6 @@ public class Cocktail extends Drink {
         }
         return false;
     }
-
-    /**
-     * Returns the name of the cocktail.
-     *
-     * @return The name of the cocktail.
-     */
-    public String getName(){return name;}
-
-    /**
-     * Sets the name of the cocktail.
-     *
-     * @param name The name of the cocktail.
-     */
-    public void setName(String name){this.name = name;}
 
     /**
      * Prints the information of the cocktail, including its name, alcohol percentage,
