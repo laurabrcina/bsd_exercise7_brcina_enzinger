@@ -1,34 +1,47 @@
+package at.campus02.bsd;
 
-// fastly written (not really nice) comments you should adapt
+/**
+ *Interface for a queue
+ */
 public interface IQueue {
-  /** 
-   * I am a really bad comment
-   * 
-   * fasdfadsffdsadsf
-   * 
-   * fdsasdfadsf
-   * 
-   *  add object to queue, true if okay 
-   * 
-   * i fell asleep on my keyboard...
-   * 
+  /**
+   * Adds an object to the queue
+   *
+   * @param obj The object to add
+   * @return True if the object was added successfully, false otherwise
    * */ 
   public abstract boolean offer(String obj);
 
-  //returns + del 1st element; null if nothing in there
-   //
+  /**
+   * Retrieves and removes the first element from the queue
+   *
+   * @return The first element of the queue, or null if the queue is empty
+   */
+
   public abstract String poll();
 
-  /* 
-  same as poll, if there is nothing in there error NoSuchElementException
+  /**
+   * Retrieves and removes the first element from the queue
+   *
+   * @return The first element of the queue
+   * @throws NoSuchElementException if the queue is empty
    */
   public abstract String remove();
 
-  // 1st element without dlete, otherwise null
+  /**
+   * Retrieves, but does not remove, the first element from the queue
+   *
+   * @return The first element of the queue, or null if the queue is empty
+   */
    
   public abstract String peek();
 
-  // element is to peek what remove is to poll
+  /**
+   * Retrieves, but does not remove, the first element from the queue
+   *
+   * @return The first element of the queue
+   * @throws NoSuchElementException if the queue is empty
+   */
   
   public abstract String element();
 }
