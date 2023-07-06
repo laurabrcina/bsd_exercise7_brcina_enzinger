@@ -54,7 +54,7 @@ public class DrinkQueueTest {
 
     @Test
     public void testDequeueEmptyQueue() {
-        assertThrows(NoSuchElementException.class, () -> drinkQueue.dequeue());;
+        assertThrows(NoSuchElementException.class, () -> drinkQueue.dequeue());
     }
 
     @Test

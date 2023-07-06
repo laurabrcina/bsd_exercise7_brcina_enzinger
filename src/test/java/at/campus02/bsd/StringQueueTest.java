@@ -63,7 +63,7 @@ public class StringQueueTest {
 
     @Test
     public void testRemove_WhenQueueEmpty() {
-        assertThrows(NoSuchElementException.class, () -> queue.remove());
+        assertThrows(IndexOutOfBoundsException.class, () -> queue.remove());
     }
 
     @Test
@@ -95,7 +95,7 @@ public class StringQueueTest {
 
     @Test
     public void testElement_WhenQueueEmpty() {
-        assertThrows(NoSuchElementException.class, () -> queue.element());
+        assertThrows(IndexOutOfBoundsException.class, () -> queue.element());
     }
 }
 

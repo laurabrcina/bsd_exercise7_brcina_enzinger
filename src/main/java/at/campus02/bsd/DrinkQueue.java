@@ -1,6 +1,7 @@
 package at.campus02.bsd;
 
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 import java.util.Queue;
 
 /**
@@ -27,11 +28,14 @@ public class DrinkQueue {
 
     /**
      * Removes and returns the first drink from the queue.
-     *
-     * @return The first drink in the queue, or null if the queue is empty.
+     * @throws NoSuchElementException if queue is empty
+     * @return The first drink in the queue, if the queue is not empty.
      */
     public Drink dequeue() {
-        return queue.poll();
+        Drink drink = queue.poll();
+        if (drink==null){
+            throw new NoSuchElementException("Queue is empty!");}
+        else {return drink;}
     }
 
     /**
