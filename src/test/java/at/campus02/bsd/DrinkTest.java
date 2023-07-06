@@ -25,7 +25,11 @@ public class DrinkTest {
     }
     @Test
     public void setNameTest(){
+<<<<<<< HEAD
        drink.setName("Cocktail Ananas");
+=======
+        drink.setName("Cocktail Ananas");
+>>>>>>> maven_site
         assertEquals("Cocktail Ananas",drink.getName());
     }
 }
