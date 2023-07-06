@@ -46,7 +46,7 @@ public class StringQueue implements IQueue {
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
+    if (elements.size() != 0) {
       elements.remove(0);
     }
 
@@ -58,14 +58,14 @@ public class StringQueue implements IQueue {
    * Throws NoSuchElementException if the queue is empty.
    *
    * @return The first element of the queue.
-   * @throws NoSuchElementException if the queue is empty.
+   * @throws IndexOutOfBoundsException if the queue is empty.
    */
   @Override
   public String remove() {
     String element = poll();
 
     if (element == null)
-      throw new NoSuchElementException("there's no element any more");
+      throw new IndexOutOfBoundsException("there's no element any more");
 
     return element;
   }
@@ -91,13 +91,13 @@ public class StringQueue implements IQueue {
    * Throws NoSuchElementException if the queue is empty.
    *
    * @return The first element of the queue.
-   * @throws NoSuchElementException if the queue is empty.
+   * @throws IndexOutOfBoundsException if the queue is empty.
    */
   @Override
   public String element() {
     String element = peek();
     if (element == null)
-      throw new NoSuchElementException("there's no element any more");
+      throw new IndexOutOfBoundsException("there's no element any more");
 
     return element;
   }
