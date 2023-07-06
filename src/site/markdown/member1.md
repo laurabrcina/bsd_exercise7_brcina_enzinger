@@ -2,7 +2,7 @@
 ____
 Name: Laura Brcina
 ## Dokumentation der Arbeitsschritten, die von mit bearbeitet wurden:
-+ ####Repository erstellen und den anderen mitglied einladen
++ ####Repository erstellen und den anderen Mitglied einladen
 + Repositorynamen geben
 + ####Branch maven erstellt
 + Maven Projekt erstellt
