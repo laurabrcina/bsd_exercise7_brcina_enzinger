@@ -47,3 +47,4 @@ ___
 
 ___
 * [Laura Brcina markdown](src/site/markdown/member1.md)
+* [Katharina Enzinger markdown](src/site/markdown/member2.md)
