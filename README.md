@@ -44,3 +44,6 @@ ___
 - [x] LB - member1.md für Laura Brcina erstellt
 - [x] LB - mvn site ausgeführt
 - [x] LB & KE - Repository auf Git Hub kontrolieren
+
+___
+* [Laura Brcina markdown](src/site/markdown/member1.md)
