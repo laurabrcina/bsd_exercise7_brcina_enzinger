@@ -2,6 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <description>Das ist die Hauptseite des gemeinsames Projekts von Laura Brcina und Katharina Enzinger.
+       Wir haben uns die Aufgaben aufgeteilt und in verschiedenen Branches die Teilen der Aufgabe abgeschlossen.
+   In der Aufgabe geht es um ein gemeinsames Maven Projekt und diese Aufgabe ist eine Zusammenfassung von allen bisherigen Aufgaben, die zum abschließen waren.</description>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
@@ -32,6 +35,7 @@
     </developers>
 
     <properties>
+        <description>Test</description>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

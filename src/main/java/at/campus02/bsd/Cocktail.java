@@ -63,20 +63,6 @@ public class Cocktail extends Drink {
     }
 
     /**
-     * Returns the name of the cocktail.
-     *
-     * @return The name of the cocktail.
-     */
-    public String getName(){return name;}
-
-    /**
-     * Sets the name of the cocktail.
-     *
-     * @param name The name of the cocktail.
-     */
-    public void setName(String name){this.name = name;}
-
-    /**
      * Prints the information of the cocktail, including its name, alcohol percentage,
      * and list of ingredients.
      */
